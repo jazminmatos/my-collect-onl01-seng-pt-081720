@@ -8,4 +8,5 @@ def my_collect(collection)
   collection
 end
 
-my_collect
+my_collect(array) do |name|
+  name.split(" ").first
