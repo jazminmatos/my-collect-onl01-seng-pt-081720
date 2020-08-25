@@ -7,7 +7,3 @@ def my_collect(collection)
   end
   new_collection
 end
-
-my_collect(collection) do |name|
-  name.split(" ").first
-end
